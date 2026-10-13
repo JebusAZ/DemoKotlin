@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             DemoKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Saint Leo University - LATAM",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,8 +33,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
-        modifier = modifier
+        text = "Hello $name!, Bienvenidos al curso de Desarrollo de Aplicaciones Móviles con Android Studio",
+        modifier = modifier,
     )
 }
 
